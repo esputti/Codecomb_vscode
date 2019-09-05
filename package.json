@@ -11,14 +11,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onCommand:codecomb.quickInput"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
-				"title": "Start new Query"
+				"command": "codecomb.quickInput",
+				"title": "Codecomb: Enter search term from quick input box"
 			}
 		]
 	},
